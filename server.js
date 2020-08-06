@@ -19,6 +19,7 @@ const user2 = await serverClient.setUser(
     },
     token
 );
+
 const user3 = await serverClient.setUser(
     {
         id: userID,
@@ -31,6 +32,7 @@ const user3 = await serverClient.setUser(
 const goodChannel = serverClient.channel('team', 'good-channel', {
     members: [user1]
 });
+
 const badChannel = serverClient.channel('team', 'bad-channel', {
     members: [user2]
 });
