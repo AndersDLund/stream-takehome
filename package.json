@@ -1,0 +1,23 @@
+{
+  "name": "stream-takehome",
+  "version": "1.0.0",
+  "description": "Code samples utilizing Stream documentation",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndersDLund/stream-takehome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndersDLund/stream-takehome/issues"
+  },
+  "homepage": "https://github.com/AndersDLund/stream-takehome#readme",
+  "dependencies": {
+    "stream-chat": "^1.14.0"
+  }
+}
